@@ -1,0 +1,47 @@
+@prefix :        <http://vocab.dhlab.epfl.ch/dhcanvas#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dhc:     <http://vocab.dhlab.epfl.ch/dhcanvas#> .
+
+dhc:thumbnail
+      a       owl:DatatypeProperty ;
+      rdfs:comment "Indicates the thumbnail of an image."@en ;
+      rdfs:label "thumbnail"@en .
+
+dhc:uuid
+      a       owl:DatatypeProperty ;
+      rdfs:comment "This property allows to state the universally unique identifier of an object."@en ;
+      rdfs:label "uuid"@en .
+
+dhc:pageCount
+      a       owl:DatatypeProperty ;
+      rdfs:comment "This propoerty allows to state the number of pages of a Manifest."@en ;
+      rdfs:label "pageCount"@en .
+
+dhc:y
+      a       owl:DatatypeProperty ;
+      rdfs:comment "This property allows to state a coordinate value on a the y-axis."@en ;
+      rdfs:label "y"@en .
+
+dhc:Segment
+      a       owl:Class ;
+      rdfs:comment "A portion of an image."@en ;
+      rdfs:label "Segment"@en .
+
+dhc:hasBoundingBox
+      a       owl:ObjectProperty ;
+      rdfs:domain dhc:Segment ;
+      rdfs:label "hasBoundingBox"@en .
+
+dhc:x
+      a       owl:DatatypeProperty ;
+      rdfs:comment "This property allows to state a coordinate value on a the x-axis."@en ;
+      rdfs:label "x"@en .
+
+<http://vocab.dhlab.epfl.ch/dhcanvas>
+      a       owl:Ontology ;
+      rdfs:comment "This vocabulary gathers terms which describes the few elements of the DHCanvas annotation interface data model that are not covered by the IIIF Presentation API nor the Web Annotation Data Model. This is work-in-progress."@en ;
+      rdfs:label "DHCanvas ontology"@en ;
+      owl:versionIRI <http://vocab.dhlab.epfl.ch/dhcanvas/1.0> .

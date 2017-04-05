@@ -1,0 +1,6 @@
+_:AX2dX7047d2acX3aX15b3d66352fX3aXX2dX7ffb <http://xmlns.com/foaf/0.1/name> "Maud Ehrmann" .
+_:AX2dX7047d2acX3aX15b3d66352fX3aXX2dX7ffb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> .
+_:AX2dX7047d2acX3aX15b3d66352fX3aXX2dX7ffc <http://xmlns.com/foaf/0.1/name> "Maud Ehrmann" .
+_:AX2dX7047d2acX3aX15b3d66352fX3aXX2dX7ffc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> .
+<http://vocab.dhlab.epfl.ch/garzoni> <http://purl.org/dc/terms/title> "Garzoni Data Model" .
+<http://vocab.dhlab.epfl.ch/garzoni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .

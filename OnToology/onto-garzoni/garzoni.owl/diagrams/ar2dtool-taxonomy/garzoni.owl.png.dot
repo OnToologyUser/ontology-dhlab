@@ -1,0 +1,29 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "grz:CurrencyType" "grz:ChargeMention" "grz:Charge" "grz:RoleType" "grz:Profession" "http://semanticweb.cs.vu.nl/2009/11/sem/Type" "grz:Patronymic1" "grz:FinancialConditionType" "grz:ProfessionMention" "grz:Workshop" "grz:PeriodizationType" "grz:WorkshopMention" "http://vocab.dhlab.epfl.ch/data-core#Mention" "grz:Surname" "grz:AppellationComponent" "grz:ApplicationRule" "grz:Collectivename" "grz:EventType" "grz:Contract" "grz:HostingCondition" "grz:FinancialCondition" "grz:Condition" "grz:HostingConditionType" "grz:PayerType" "grz:Forename" "grz:PlaceType" "http://vocab.dhlab.epfl.ch/data-core#Entity" "grz:Patronymic2" "http://vocab.dhlab.epfl.ch/data-core#Source" ; /*classes style*/
+	"grz:FinancialConditionType" -> "http://semanticweb.cs.vu.nl/2009/11/sem/Type" [ label = "rdfs:subClassOf" ];
+	"grz:Contract" -> "http://vocab.dhlab.epfl.ch/data-core#Source" [ label = "rdfs:subClassOf" ];
+	"grz:Profession" -> "http://vocab.dhlab.epfl.ch/data-core#Entity" [ label = "rdfs:subClassOf" ];
+	"grz:Collectivename" -> "grz:AppellationComponent" [ label = "rdfs:subClassOf" ];
+	"grz:WorkshopMention" -> "http://vocab.dhlab.epfl.ch/data-core#Mention" [ label = "rdfs:subClassOf" ];
+	"grz:HostingConditionType" -> "http://semanticweb.cs.vu.nl/2009/11/sem/Type" [ label = "rdfs:subClassOf" ];
+	"grz:FinancialCondition" -> "grz:Condition" [ label = "rdfs:subClassOf" ];
+	"grz:EventType" -> "http://semanticweb.cs.vu.nl/2009/11/sem/Type" [ label = "rdfs:subClassOf" ];
+	"grz:PayerType" -> "http://semanticweb.cs.vu.nl/2009/11/sem/Type" [ label = "rdfs:subClassOf" ];
+	"grz:RoleType" -> "http://semanticweb.cs.vu.nl/2009/11/sem/Type" [ label = "rdfs:subClassOf" ];
+	"grz:CurrencyType" -> "http://semanticweb.cs.vu.nl/2009/11/sem/Type" [ label = "rdfs:subClassOf" ];
+	"grz:Surname" -> "grz:AppellationComponent" [ label = "rdfs:subClassOf" ];
+	"grz:PeriodizationType" -> "http://semanticweb.cs.vu.nl/2009/11/sem/Type" [ label = "rdfs:subClassOf" ];
+	"grz:Charge" -> "http://vocab.dhlab.epfl.ch/data-core#Entity" [ label = "rdfs:subClassOf" ];
+	"grz:Patronymic2" -> "grz:AppellationComponent" [ label = "rdfs:subClassOf" ];
+	"grz:ApplicationRule" -> "http://semanticweb.cs.vu.nl/2009/11/sem/Type" [ label = "rdfs:subClassOf" ];
+	"grz:Forename" -> "grz:AppellationComponent" [ label = "rdfs:subClassOf" ];
+	"grz:ChargeMention" -> "http://vocab.dhlab.epfl.ch/data-core#Mention" [ label = "rdfs:subClassOf" ];
+	"grz:Patronymic1" -> "grz:AppellationComponent" [ label = "rdfs:subClassOf" ];
+	"grz:HostingCondition" -> "grz:Condition" [ label = "rdfs:subClassOf" ];
+	"grz:ProfessionMention" -> "http://vocab.dhlab.epfl.ch/data-core#Mention" [ label = "rdfs:subClassOf" ];
+	"grz:PlaceType" -> "http://semanticweb.cs.vu.nl/2009/11/sem/Type" [ label = "rdfs:subClassOf" ];
+	"grz:Workshop" -> "http://vocab.dhlab.epfl.ch/data-core#Entity" [ label = "rdfs:subClassOf" ];
+
+}

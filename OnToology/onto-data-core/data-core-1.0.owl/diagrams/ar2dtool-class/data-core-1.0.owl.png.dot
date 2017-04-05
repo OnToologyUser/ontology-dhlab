@@ -1,0 +1,11 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "core:Source" "core:Mention" "core:Entity" ; /*classes style*/
+	"http://vocab.dhlab.epfl.ch/data-core" -> "http://vocab.dhlab.epfl.ch/data-core/1.0" [ label = "owl:versionIRI" ];
+	"core:Mention" -> "core:Entity" [ label = "core:refersTo" ];
+	"core:Source" -> "core:Mention" [ label = "core:hasMention" ];
+	"core:Entity" -> "core:Mention" [ label = "core:referredBy" ];
+	"core:Mention" -> "core:Source" [ label = "core:isMentionedIn" ];
+
+}

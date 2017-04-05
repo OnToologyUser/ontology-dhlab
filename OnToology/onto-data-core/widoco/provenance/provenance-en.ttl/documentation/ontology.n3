@@ -1,0 +1,6 @@
+_:AX2dX646bfabcX3aX15b3d649db7X3aXX2dX7ffc <http://xmlns.com/foaf/0.1/name> "Maud Ehrmann" .
+_:AX2dX646bfabcX3aX15b3d649db7X3aXX2dX7ffc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> .
+<http://vocab.dhlab.epfl.ch/data-core/1.0> <http://purl.org/dc/terms/title> "Data Core Ontology" .
+<http://vocab.dhlab.epfl.ch/data-core/1.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+_:AX2dX646bfabcX3aX15b3d649db7X3aXX2dX7ffb <http://xmlns.com/foaf/0.1/name> "Maud Ehrmann" .
+_:AX2dX646bfabcX3aX15b3d649db7X3aXX2dX7ffb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> .

@@ -1,0 +1,25 @@
+<http://vocab.dhlab.epfl.ch/dhcanvas#pageCount> <http://www.w3.org/2000/01/rdf-schema#label> "pageCount"@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#pageCount> <http://www.w3.org/2000/01/rdf-schema#comment> "This propoerty allows to state the number of pages of a Manifest."@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#pageCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.dhlab.epfl.ch/dhcanvas> <http://www.w3.org/2000/01/rdf-schema#label> "DHCanvas ontology"@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas> <http://www.w3.org/2000/01/rdf-schema#comment> "This vocabulary gathers terms which describes the few elements of the DHCanvas annotation interface data model that are not covered by the IIIF Presentation API nor the Web Annotation Data Model. This is work-in-progress."@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.dhlab.epfl.ch/dhcanvas/1.0> .
+<http://vocab.dhlab.epfl.ch/dhcanvas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://vocab.dhlab.epfl.ch/dhcanvas#x> <http://www.w3.org/2000/01/rdf-schema#label> "x"@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#x> <http://www.w3.org/2000/01/rdf-schema#comment> "This property allows to state a coordinate value on a the x-axis."@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.dhlab.epfl.ch/dhcanvas#thumbnail> <http://www.w3.org/2000/01/rdf-schema#label> "thumbnail"@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#thumbnail> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the thumbnail of an image."@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#thumbnail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.dhlab.epfl.ch/dhcanvas#Segment> <http://www.w3.org/2000/01/rdf-schema#label> "Segment"@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#Segment> <http://www.w3.org/2000/01/rdf-schema#comment> "A portion of an image."@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#Segment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.dhlab.epfl.ch/dhcanvas#y> <http://www.w3.org/2000/01/rdf-schema#label> "y"@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#y> <http://www.w3.org/2000/01/rdf-schema#comment> "This property allows to state a coordinate value on a the y-axis."@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.dhlab.epfl.ch/dhcanvas#hasBoundingBox> <http://www.w3.org/2000/01/rdf-schema#label> "hasBoundingBox"@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#hasBoundingBox> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.dhlab.epfl.ch/dhcanvas#Segment> .
+<http://vocab.dhlab.epfl.ch/dhcanvas#hasBoundingBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.dhlab.epfl.ch/dhcanvas#uuid> <http://www.w3.org/2000/01/rdf-schema#label> "uuid"@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#uuid> <http://www.w3.org/2000/01/rdf-schema#comment> "This property allows to state the universally unique identifier of an object."@en .
+<http://vocab.dhlab.epfl.ch/dhcanvas#uuid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .

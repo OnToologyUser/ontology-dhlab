@@ -1,0 +1,12 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "meta:Series" "meta:Register" "meta:Page" "meta:Fund" "meta:Box" "meta:ArchivalUnit" "meta:ArchivalHolder" ; /*classes style*/
+	"meta:Page" -> "meta:ArchivalUnit" [ label = "rdfs:subClassOf" ];
+	"meta:Series" -> "meta:ArchivalUnit" [ label = "rdfs:subClassOf" ];
+	"meta:ArchivalHolder" -> "meta:ArchivalUnit" [ label = "rdfs:subClassOf" ];
+	"meta:Register" -> "meta:ArchivalUnit" [ label = "rdfs:subClassOf" ];
+	"meta:Fund" -> "meta:ArchivalUnit" [ label = "rdfs:subClassOf" ];
+	"meta:Box" -> "meta:ArchivalUnit" [ label = "rdfs:subClassOf" ];
+
+}

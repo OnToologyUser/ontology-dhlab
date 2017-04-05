@@ -1,0 +1,19 @@
+{
+  "@context" : {
+    "wasGeneratedAt" : {
+      "@id" : "http://www.w3.org/ns/prov#wasGeneratedAt"
+    },
+    "wasAttributedTo" : {
+      "@id" : "http://www.w3.org/ns/prov#wasAttributedTo"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "Agent" : {
+      "@id" : "http://www.w3.org/ns/prov#Agent"
+    },
+    "Entity" : {
+      "@id" : "http://www.w3.org/ns/prov#Entity"
+    }
+  }
+}

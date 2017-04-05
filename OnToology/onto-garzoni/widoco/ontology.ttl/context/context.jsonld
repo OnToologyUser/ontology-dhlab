@@ -1,0 +1,271 @@
+{
+  "@context" : {
+    "hasNextPart" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#hasNextPart",
+      "@type" : "@id"
+    },
+    "ageText" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#ageText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasProfession" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#hasProfession",
+      "@type" : "@id"
+    },
+    "isNextPartOf" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#isNextPartOf",
+      "@type" : "@id"
+    },
+    "hasGeographicalOrigin" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#hasGeographicalOrigin",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "totalAmount" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#totalAmount",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "ChargeMention" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#ChargeMention"
+    },
+    "ProfessionMention" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#ProfessionMention"
+    },
+    "HostingConditionType" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#HostingConditionType"
+    },
+    "PeriodizationType" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#PeriodizationType"
+    },
+    "Type" : {
+      "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/Type"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "hasCondition" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#hasCondition",
+      "@type" : "@id"
+    },
+    "Source" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/data-core#Source"
+    },
+    "clothingType" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#clothingType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Patronymic2" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#Patronymic2"
+    },
+    "hasName" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#hasName",
+      "@type" : "@id"
+    },
+    "Charge" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#Charge"
+    },
+    "Workshop" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#Workshop"
+    },
+    "Surname" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#Surname"
+    },
+    "periodization" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#periodization"
+    },
+    "Mention" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/data-core#Mention"
+    },
+    "quondam1" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#quondam1",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "hasRole" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#hasRole",
+      "@type" : "@id"
+    },
+    "paidBy" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#paidBy"
+    },
+    "CurrencyType" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#CurrencyType"
+    },
+    "Patronymic1" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#Patronymic1"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "applicationRule" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#applicationRule"
+    },
+    "relatedContract" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#relatedContract",
+      "@type" : "@id"
+    },
+    "Contract" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#Contract"
+    },
+    "identifiedPerson" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#identifiedPerson",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasMargin" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#hasMargin",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "id" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#id"
+    },
+    "EventType" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#EventType"
+    },
+    "paidInGoods" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#paidInGoods",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "insigna" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#insigna",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isWorkshopOf" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#isWorkshopOf",
+      "@type" : "@id"
+    },
+    "placeType" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#placeType",
+      "@type" : "@id"
+    },
+    "oid" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#oid"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "currencyUnit" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#currencyUnit"
+    },
+    "partialAmount" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#partialAmount",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "AppellationComponent" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#AppellationComponent"
+    },
+    "FinancialConditionType" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#FinancialConditionType"
+    },
+    "FinancialCondition" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#FinancialCondition"
+    },
+    "onMultiplePages" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#onMultiplePages",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "mediaWikiReference" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#mediaWikiReference"
+    },
+    "site" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#site"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "WorkshopMention" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#WorkshopMention"
+    },
+    "PlaceType" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#PlaceType"
+    },
+    "Profession" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#Profession"
+    },
+    "isConditionOf" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#isConditionOf",
+      "@type" : "@id"
+    },
+    "denunciationDate" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#denunciationDate"
+    },
+    "ApplicationRule" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#ApplicationRule"
+    },
+    "details" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#details",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "Entity" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/data-core#Entity"
+    },
+    "HostingCondition" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#HostingCondition"
+    },
+    "Condition" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#Condition"
+    },
+    "PersonAppellation" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#PersonAppellation"
+    },
+    "period" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#period",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "quondam2" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#quondam2",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "moneyInformation" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#moneyInformation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Collectivename" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#Collectivename"
+    },
+    "PayerType" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#PayerType"
+    },
+    "Forename" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#Forename"
+    },
+    "hasLocation" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#hasLocation",
+      "@type" : "@id"
+    },
+    "hasCharge" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#hasCharge",
+      "@type" : "@id"
+    },
+    "hasWorkshop" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#hasWorkshop",
+      "@type" : "@id"
+    },
+    "professionCategory" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#professionCategory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "worksFor" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#worksFor",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasResidence" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#hasResidence",
+      "@type" : "@id"
+    },
+    "RoleType" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#RoleType"
+    },
+    "conditionType" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/garzoni#conditionType",
+      "@type" : "@id"
+    }
+  }
+}
